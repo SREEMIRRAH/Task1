@@ -1,0 +1,72 @@
+body {
+	font-family: Jost;
+	padding: 3%  0% 0% 0%;
+}
+
+.container{
+    h1{
+        color: #000;
+        font-size: 48px;
+        }
+    p {
+        font-size: 20px;
+        line-height: 38px;
+        color:#557087
+        
+    }
+    a{
+    background-color: blue;
+		color: white    ;
+		padding: 15px 30px;
+		text-align: center;
+		text-decoration: none;
+        line-height: 20.23px;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 5px;
+        margin-top: 50px;
+    }
+}
+
+.browser{
+    margin-top: 80px;
+    left: 16%;
+    width: 916px;
+    height: 471px;
+    background-color: #E0E8F0;
+    border-radius: 12px;
+    position: relative;
+}
+.rectangle{
+    position:absolute;
+    width: 884px;
+    height: 427px;
+    background-color: #D2DDE8;
+    left:16px;
+    right:16px;
+    top:44px;
+    
+}
+.icon {
+    display: flex;
+    align-items: flex-start;	
+    padding: 1.2%  0% 0% 0%;
+    .icon1{
+        width: 12px;
+        height: 12px;
+        margin-left: 16px;
+    }
+    .icon2{
+        width: 12px;
+        height: 12px;
+        margin-left: 10px;
+    }
+    .icon3{
+        width: 12px;
+        height: 12px;
+        margin-left: 10px;
+    }
+}
+

@@ -1,0 +1,109 @@
+body {
+	font-family: Jost;
+	padding: 2%  0% 0% 0%;
+}
+.container{
+    h1{
+        color: #000;
+        font-size: 48px;
+        }
+    p {
+        font-size: 20px;
+        line-height: 38px;
+        color:#557087
+        
+    }
+}
+.featurebox{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40PX;
+    width: 1250px;
+    height: 600px;
+    padding: auto;
+    margin: auto;
+    .feature1{
+        width: 535px;
+        height: 527px;
+        background-color: #E0E8F0;
+        border-radius: 12px;
+        padding-left: 45px;
+        h3{
+            color: #0045FF;
+            padding-top: 8%;
+            font-size: 14px;
+            line-height: 20.9px ;
+        }
+        .feature{
+            display: flex;
+            width: 439px;
+            height: 46px;
+            padding: 5%  0% 0% 0%;
+            .content{
+                align-self: center;
+                margin-left: 20px;
+                color: #557087;
+                font-size: 20px;
+                line-height: 28.9px;
+            }
+            
+        }
+        .download-now{
+            background-color: #557087;
+            color: white   ;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            line-height: 20.23px;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 60px;
+        }
+    }
+    .feature2{
+        width: 535px;
+        height: 527px;
+        background-color: #0045FF;
+        border-radius: 12px;
+        padding-left: 45px;
+        h3{
+            color:#ffff;
+            padding-top: 8%;
+            font-size: 14px;
+            line-height: 20.9px ;
+        }
+        p{
+            color:#ffff
+        }
+        .feature{
+            display: flex;
+            width: 439px;
+            height: 46px;
+            padding: 5%  0% 0% 0%;
+            .content{
+                align-self: center;
+                margin-left: 20px;
+                font-size: 20px;
+                line-height: 28.9px;
+            }
+        }
+        .download-now{
+            background-color: white;
+            color: blue    ;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            line-height: 20.23px;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 60px;
+        }
+    }
+    
+}
